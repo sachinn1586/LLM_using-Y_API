@@ -1,0 +1,13 @@
+prefix=/Users/aarushsingh/Downloads/Pinecone Vector Database/venv
+exec_prefix=/Users/aarushsingh/Downloads/Pinecone Vector Database/venv
+libdir=/Users/aarushsingh/Downloads/Pinecone Vector Database/venv/lib
+sharedlibdir=/Users/aarushsingh/Downloads/Pinecone Vector Database/venv/lib
+includedir=/Users/aarushsingh/Downloads/Pinecone Vector Database/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
